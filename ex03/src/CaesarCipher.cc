@@ -1,9 +1,6 @@
-#include "../include/ex03/CaesarCipher.hh"
+#include "ex03/CaesarCipher.hh"
 
-
-CaesarCipher::CaesarCipher(const int shift) : shift(shift) {
-
-}
+CaesarCipher::CaesarCipher(const int shift) : shift(shift) {}
 
 std::string CaesarCipher::encrypt(const std::string &message) {
   std::string r;

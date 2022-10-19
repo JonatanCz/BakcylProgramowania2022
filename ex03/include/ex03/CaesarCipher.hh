@@ -1,11 +1,5 @@
-//
-// Created by lolicon on 19.10.22.
-//
-
 #ifndef BAKCYLPROGRAMOWANIA2022_CAESARCIPHER_HH
 #define BAKCYLPROGRAMOWANIA2022_CAESARCIPHER_HH
-
-
 #include <string>
 
 class CaesarCipher {
@@ -18,6 +12,5 @@ private:
 
     char shiftChar(const unsigned char c, int shift) const;
 };
-
 
 #endif //BAKCYLPROGRAMOWANIA2022_CAESARCIPHER_HH
