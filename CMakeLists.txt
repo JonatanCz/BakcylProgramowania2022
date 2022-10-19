@@ -3,7 +3,7 @@ project(BakcylProgramowania2022)
 
 set(CMAKE_CXX_STANDARD 20)
 
-set(EXE "ex01;ex03;ex04;")
+set(EXE "ex01;ex02;ex03;ex04;")
 
 foreach(PROJ ${EXE})
     add_executable(${PROJ})
